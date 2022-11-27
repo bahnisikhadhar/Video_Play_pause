@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+.switch-btn {
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  transition: all 0.3s linear;
+  color: red;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: lightcoral;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+.slide .switch {
+  left: 50%;
+}
